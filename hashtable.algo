@@ -1,0 +1,17 @@
+ALGORITHM algorithm_name
+VAR
+    htab : HASH_TABLE<INTEGER,INTEGER>;
+    htab2 : HASH_TABLE<INTEGER,INTEGER>;
+BEGIN
+    htab.insert(0 , 12);
+    htab.insert(1 , 13);
+    htab.insert(2 , 6);
+    htab.insert(3 , 10);
+
+    htab2.insert(0 , 13);
+    htab2.insert(1 , 10);
+    htab2.insert(2 , 16);
+    htab2.insert(3 , 15);
+
+// hedha li fhemta si houcem mel hashtable 
+END
